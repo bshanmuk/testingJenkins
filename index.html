@@ -1,4 +1,7 @@
-Installing and setting Java and Jenkins on GCE
+<html>
+  <head></head>
+  <body>
+    <h3>Installing and setting Java and Jenkins on GCE</h3>
 $ ssh username@IPAddressOfGCE
 $ sudo yum install java-1.8.0-openjdk
 $ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
@@ -8,3 +11,5 @@ $ sudo systemctl start jenkins
 $ sudo /sbin/chkconfig jenkins on
 $ sudo firewall-cmd --zone=public --add-port=8080/tcp --permanent
 $ sudo firewall-cmd --reload
+</body>
+</html>
